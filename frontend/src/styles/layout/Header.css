@@ -1,0 +1,35 @@
+
+.heading{
+    display:flex;
+    flex-direction: row;    
+    background-color: rgb(175, 78, 255);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height:250px;
+    width: 1280px;   
+    
+
+}
+
+
+.cabecera{    
+    display: flex;   
+    text-align: justify;
+    padding-left: 180px;
+    padding-top: 40px;
+    margin: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 72px;
+    font-weight: 250;
+    font-style: normal;
+    color: rgb(255, 255, 255);  
+
+}
+
+.header-pic {
+    display: flex;  
+    margin:20px;
+    height: 150px;
+    width: 150px;
+    pointer-events: none;    
+  }

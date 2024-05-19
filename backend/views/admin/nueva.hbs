@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+        <form action="/admin/novedades/nueva" method="post"
+          enctype ="multipart/form-data">  {{! Este código en la etiqueta de formulario ahrá que suban los archivos que se adjuntan además del texto de los campos}}
+            <div class="mb-3 row">
+                <div class="col-sm-10">
+                    <label class="labels">Título</label>
+                    <input type="text" id="1" name="titulo">
+                </div>
+            </div>
+             <div class="mb-3 row">
+                <div class="col-sm-10">
+                    <label class="labels">Imagen</label>
+                    <input type="file" id="2" name="imagen"> {{! Crea un botón que permite seleccionar un archivo para subirlo }}
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <div class="col-sm-10">
+                    <label class="labels">Cuerpo</label>
+                    <input type="text" id="3" name="cuerpo"></textarea>
+                </div>
+            </div>
+
+              <div class="mb-3 row">
+                <div class="col-sm-10">
+                    <label class="labels">Tipo</label>
+                    <input type="text" id="4" name="tipo"></textarea>
+                    <label class="nota">Ingrese "n" para novedad, "f" para feria o "c" para curso.</label>
+                </div>
+                
+            </div>
+
+            <button type="submit" class="btn btn-primary">Ingresar</button>
+        </form>
+        {{#if error}}
+          <p>Datos ingresados erróneos</p>
+        {{/if}}
+    </div>
+</div>

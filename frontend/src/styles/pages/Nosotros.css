@@ -1,0 +1,64 @@
+.modelos_w{
+    max-width: 1060px;
+}
+
+.parrafo3 {
+
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.colecciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1020px;   
+
+}
+
+.coleccion {
+    display: flex;
+    flex-direction: row;
+    border: 3px;
+    max-width: 95%;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 10px;
+    background: linear-gradient(135deg, rgba(43, 255, 100, 0.5186449579831933) 0%, rgba(110, 255, 197, 0.47942927170868344) 5%, rgba(44, 208, 255, 0.5242471988795518) 100%);
+    border-radius: 25px;
+    box-shadow: 8px 8px 6px 0px #383838;
+    margin: 8px;
+    height: 220px;
+}
+
+.imgcolecc {
+    border-radius: 15px;    
+    width: 240px; 
+    height: 200px ;
+
+}
+
+.titcol {
+    font-family: "Quicksand", sans-serif;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 30px;
+    color: black;
+    border-bottom: 2px solid #000000;
+    padding-left: 15px;
+
+ }
+
+ .car_ousel1 {
+    display: flex;   
+    justify-content: center;
+    width: 240px; 
+    height: 200px ;
+    border-radius: 15px;
+
+}

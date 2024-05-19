@@ -1,0 +1,79 @@
+.contactos {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(179, 226, 253);
+    width: 1060px;
+    height: 740px;
+    justify-content: space-evenly;
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+.contacto01 {
+    background-color: rgb(246, 185, 252);
+    flex-direction: row;
+    width: 40%;
+    margin: 20px;
+    margin-left: 50px;
+    align-content: flex-start;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgb(124, 124, 124);
+}
+
+.contacto02 {
+    background-color: rgb(246, 185, 252);
+    width: 40%;
+    margin: 20px;
+    margin-right: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgb(124, 124, 124);
+}
+
+.formulario p {
+    display: flex;
+ }
+
+.formulario textarea {
+
+    resize: none;
+    height: 170px;
+
+}
+
+.formulario p label {
+    min-width: 100px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 8px;
+    text-align: justify;
+ }
+
+.formulario input[type="submit"] {
+    background-color: rgb(179, 226, 253);
+    position: relative;
+    padding: 2px;
+    width: 100px;
+    margin-left: 150px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 2px 0px rgb(94, 94, 94);
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: rgb(77, 190, 255);
+}
+
+.p_textos {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+ }
+
+ .p_titulos {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+ } 
+
+ul li{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+
+ }

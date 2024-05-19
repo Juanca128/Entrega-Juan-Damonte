@@ -1,0 +1,12 @@
+.footer {
+    
+    background-color: #bde0fd;
+    clear: both;
+    color: #00155a;
+    text-align: end;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding-right: 20px;
+    margin-top: 20px;
+ }

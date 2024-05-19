@@ -1,0 +1,117 @@
+
+.labels {
+  background-color: rgb(204, 141, 255);
+  font-family: "Quicksand", sans-serif;
+  font-size: medium;
+  text-align: center;
+  font-weight: 500;
+  width: 120px;
+}
+
+.nota {
+  background-color: rgb(204, 141, 255);
+  font-family: "Quicksand", sans-serif;
+  font-size: medium;
+  text-align: center;
+  font-weight: 500;
+  width: 220px;
+}
+
+.adm_text {  
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 600; 
+}
+
+.adm_tipo {  
+  font-family: "Quicksand", sans-serif;
+  padding-left: 450px;   
+  font-size: 25px;  
+  font-weight: 600; 
+}
+
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(175, 78, 255);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 120px;
+  width: 1280px;
+
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  background-color: rgb(175, 78, 255);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 150px;
+  width: 1280px;
+
+}
+
+
+.cabecera {
+  display: flex;
+  text-align: justify;
+  padding-left: 180px;
+  padding-top: 40px;
+  margin: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 72px;
+  font-weight: 250;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+
+}
+
+.footer {
+
+  background-color: #bde0fd;
+  clear: both;
+  color: #00155a;
+  text-align: end;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.novedad {
+  background-color: rgb(255, 255, 255);
+  font-family: "Quicksand", sans-serif;
+  font-size: medium;
+  text-justify: distribute;
+  text-align: left;
+  font-weight: 500;
+
+}
+
+
+.novedad_titulo {
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(111, 214, 255);
+  border-radius: 25px;
+  height: fit-content;
+  width: 1280px;
+
+}

@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p class="adm_text">Hola {{persona}} ! </p>
+    </div>
+    <div>
+      <a class="btn btn-danger" href="/admin/login/logout"> Cerrar sesión <i class="fas fa-sign-out-alt"> </i>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h2>Lista de novedades</h2>
+    </div>
+    <div class="col-5 text-end">
+      <a class="btn btn-primary" href="/admin/novedades/nueva">Nueva</a>
+    </div>
+  </div>
+
+  <div class="accordion">
+    {{#each novedades}}
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <div class="col">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">            
+            <h4 class="adm_text">{{id}} :</h4>
+            <h4 class="adm_text">{{titulo}}</h4>            
+          </button>
+
+        </div>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          {{{imagen}}}
+          <p class="novedad">{{cuerpo}}</p>
+          <h4 class="adm_tipo">categoría:{{tipo}}</h4>          
+        </div>
+      </div>
+    </div>
+    <div class="col-6 text-end">
+      <td>{{id}}</td>      
+      <a class="btn btn-primary" href="/admin/novedades/eliminar/{{id}}">Borrar</a>
+      <a class="btn btn-primary" href="/admin/novedades/modificar/{{id}}">Modificar</a>
+    </div>
+
+    {{/each}}
+
+  </div>
+  <div>
+    {{cuerpo}}
+  </div>
+</div>

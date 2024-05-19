@@ -1,0 +1,57 @@
+.navi {
+    display: flex;
+    background-color: rgb(134, 69, 255);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(58, 9, 121, 1) 35%, rgba(255, 0, 189, 0.6558998599439776) 100%);
+    width: 220px;
+    height: 740px;
+    flex-direction: column;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    text-align: center;
+
+}
+
+
+nav ul {
+
+    margin-top: 40px;
+    padding-top: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: normal;
+    height: 80px;
+    border-radius: 15px 0px 0px 15px;
+    list-style: none;
+    line-height: 80px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+nav ul li a {
+    flex-grow: 1;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    width: 190;
+    height: 60; 
+}
+
+nav ul li:hover{
+
+    background: linear-gradient(135deg, rgba(253, 117, 255, 0.519) 0%, rgba(221, 70, 255, 0.53) 5%, rgba(251, 166, 255, 0.5242471988795518) 100%);
+    border-radius: 15px 0px 0px 15px; 
+
+}
+
+nav ul li a.activo {
+    display: flex;
+    justify-content: center;
+    width: 190;
+    height: 70;
+    background-color: rgb(175, 77, 255);
+    border-radius: 15px 0px 0px 15px;    
+
+}
+

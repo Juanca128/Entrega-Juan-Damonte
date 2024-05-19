@@ -1,0 +1,45 @@
+.dark_novedades {
+
+   font-family: "Quicksand", sans-serif;
+   color: black;
+   font-weight: 600;  
+   justify-content: center;
+   text-align: center;
+   background: radial-gradient(circle, rgba(255,255,255,0.5410539215686274) 0%, rgba(255,215,203,0.47942927170868344) 0%, rgba(254,149,93,0.5550595238095238) 100%);
+   border-radius: 10px;
+}
+
+
+.modelos{
+   display: flex;
+   justify-content: center;
+   width: 560px; 
+   height: 660px;
+   border-radius: 20px;
+}
+
+.carousel2 {   
+   display: flex;  
+   padding-left: 450px;
+   justify-content: center;   
+   width: 480px; 
+   height: 660px;
+   border-radius: 20px;
+
+}
+
+.div_modelos{
+   display: flex;
+   flex-direction: column;   
+   
+}
+
+.parrafo_mod {
+   display: flex;
+   flex-direction: column;
+   padding-left: 230px;
+   font-family: "Quicksand", sans-serif;
+   font-weight: 500;
+   text-align: center;
+   
+}
