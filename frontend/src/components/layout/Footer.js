@@ -4,8 +4,8 @@ import '../../styles/layout/Footer.css';
 const Footer = (props) => {
 
     return (
-        <div class="footer">
-            Web de práctica - Tarea M4U2 - Juan Damonte 2024
+        <div className="footer">
+            Web Luna Violácea- Diseño de Juan Damonte 2024
         </div>
     );
 }
